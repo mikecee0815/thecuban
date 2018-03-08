@@ -9,7 +9,7 @@ self.addEventListener("install", function(event) {
          a versioned cache name here so that we can remove old cache entries in
          one fell swoop later, when phasing out an older service worker.
       */
-      .open(version + 'fundamentals')
+      .open('v1')
       .then(function(cache) {
         /* After the cache is opened, we can fill it with the offline fundamentals.
            The method below will add all resources we've indicated to the cache,
