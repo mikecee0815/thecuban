@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 1.4rem;
+}
+header{
+	text-align: center;
+	width: 100%;
+	margin:0 auto;
+	/*width: 900px;*/
+}
+
+.container{
+	padding: 25px;
+	background: #DEF;
+	/*width: 100%;*/
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+	background-color: #fff;
+	margin: 15px;
+	border-radius: 10px;
+	padding: 10px;
+	float: none;
+}
+
+a{
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	text-align: center;
+}
+
+header .logo{
+	padding-top: 10px;	
+}
+#slides img{
+	width: 100%;
+}
+.fa-map , .fa-phone{
+	font-size: 1.4rem;
+	color: green;
+}
+ .menus{
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu-item{
+	flex-basis: 150px;
+}
